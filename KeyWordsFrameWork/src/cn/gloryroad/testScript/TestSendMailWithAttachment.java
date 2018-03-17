@@ -97,7 +97,7 @@ public class TestSendMailWithAttachment {
 	
 	@BeforeMethod
 	public void beforeMethod() {
-		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
 		// System.setProperty("webdriver.chrome.driver", "/XPENG/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--test-type", "--ignore-certificate-errors");
