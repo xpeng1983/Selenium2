@@ -5,6 +5,7 @@
     <classes>
       <class name="cn.gloryroad.testScript.TestSendMailWithAttachment">
         <methods>
+          <include name="afterMethod"/>
           <include name="testSendMailWithAttachment"/>
           <include name="beforeMethod"/>
         </methods>
